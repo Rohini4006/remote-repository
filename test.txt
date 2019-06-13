@@ -1,1 +1,3 @@
 Git and github connection succesfull
+
+Now checking the pull functionality
