@@ -1,12 +1,12 @@
 pipeline{
   agent any
-  stages{
+stages{
       stage('cloning from remote repo'){
           steps{
             git 'https://github.com/Rohini4006/remote-repository.git'
           }
         }
-      stage('cloning from remote repo'){
+      stage('building'){
           steps{
             bat 'javac test.java'
             bat 'java test'
