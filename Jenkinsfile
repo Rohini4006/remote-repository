@@ -8,7 +8,7 @@ stages{
         }
       stage('building'){
           steps{
-            dir('C:\\Users\\rohini.rautray\\Desktop\\gitTest\\src\\package1') {            
+            dir('C:\\Program Files (x86)\\Jenkins\\workspace\\test_Pipeline_git_Jenkinsfile\\src\\package1') {            
             bat 'javac demo1.java'
             bat 'java demo1'
             }
