@@ -8,8 +8,9 @@ stages{
         }
       stage('building'){
           steps{
-            bat 'javac test.java'
-            bat 'java test'
+            bat 'cd C:/Users/rohini.rautray/Desktop/gitTest/src/package1'
+            bat 'javac demo1.java'
+            bat 'java demo1'
           }
         }
      }
