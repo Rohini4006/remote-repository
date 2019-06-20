@@ -9,7 +9,7 @@ stages{
       stage('building'){
           steps{
             dir('C:\\Program Files (x86)\\Jenkins\\workspace\\test_Pipeline_git_Jenkinsfile') {
-            bat 'java -jar . demo1.jar'
+            bat 'java -jar demo1.jar'
             }
        }
             
